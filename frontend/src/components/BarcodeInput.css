@@ -1,0 +1,51 @@
+.barcode-input-container {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.barcode-form {
+  display: flex;
+  gap: 15px;
+  align-items: flex-end;
+}
+
+.input-group {
+  flex: 1;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #495057;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #e0e0e0;
+  border-radius: 6px;
+}
+
+.input-group input:focus {
+  border-color: #667eea;
+}
+
+.add-btn {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 6px;
+  white-space: nowrap;
+}
+
+.add-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

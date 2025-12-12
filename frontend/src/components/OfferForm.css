@@ -1,0 +1,60 @@
+.offer-form-container {
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.offer-form-container h2 {
+  margin-bottom: 20px;
+  color: #495057;
+}
+
+.offer-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.product-search {
+  display: flex;
+  gap: 10px;
+}
+
+.product-search input {
+  flex: 1;
+}
+
+.search-btn {
+  background: #667eea;
+  color: white;
+  padding: 8px 20px;
+  font-size: 18px;
+}
+
+.product-name-display {
+  display: block;
+  margin-top: 8px;
+  color: #28a745;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-group label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.checkbox-group input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
